@@ -1,0 +1,5 @@
+String_1=input("Enter the hyphen-separated sequence of words\n")      
+l_1=String_1.split('-')                                           
+l_1=sorted(l_1)
+String_1='-'.join(l_1)                                            
+print(String_1) 
